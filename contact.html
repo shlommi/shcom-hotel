@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=" ברוכים הבאים לבית מלון יוקרתי ומפנק בצפון הארץ"
+    />
+    <meta
+      name="keywords"
+      content="יוקרתי,בית מלון, ראש הנקרה, צפון, חמישה כוכבים"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>צור קשר</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">SHCOM</a></h1>
+          <ul>
+            <li><a href="index.html">בית</a></li>
+            <li><a href="about.html">אודות</a></li>
+            <li><a class="current" href="contact.html">צור קשר</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading">
+          טופס
+          <span class="text-primary"> יצירת קשר </span>
+        </h1>
+        <p>אנא מלאו את הטופס ונחזור אליכם בהקדם</p>
+        <form action="process.php" class="py-3">
+          <div class="form-group">
+            <label for="name">שם</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">כתובת דואר אלקטרוני</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">הודעתכם</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button class="btn" type="submit">שליחה</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact_info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>כתובתנו</h3>
+          <p>הקשת 24, נהריה</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-פיםמק fa-3x"></i>
+          <h3>טלפון</h3>
+          <p>04-7789023</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-evnvelop fa-3x"></i>
+          <h3>דואר אקלטרוני</h3>
+          <p>contact@shcom.co.il</p>
+        </div>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <p>מלון SHCOM © כל הזכויות שמורות 2021</p>
+    </footer>
+  </body>
+</html>
